@@ -25,7 +25,7 @@ export const config: TemplateConfig = {
   stream: {
     $id: "location",
     filter: {
-      entityIds: [YEXT_PUBLIC_LOCATION_ENTITY_ID],
+      entityIds: [1063036074],
     },
     fields: [
       "id",
@@ -46,7 +46,7 @@ export const config: TemplateConfig = {
       "c_heroCTAs"
     ],
     localization: {
-      locales: [YEXT_PUBLIC_LOCATION_LOCALE_CODE],
+      locales: "en",
     },
   },
 };
