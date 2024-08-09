@@ -25,7 +25,7 @@ export const config: TemplateConfig = {
   stream: {
     $id: "location",
     filter: {
-      entityIds: [1063036074],
+      entityIds: ["location"],
     },
     fields: [
       "id",
@@ -46,7 +46,7 @@ export const config: TemplateConfig = {
       "c_heroCTAs"
     ],
     localization: {
-      locales: "en",
+      locales: ["en"],
     },
   },
 };
