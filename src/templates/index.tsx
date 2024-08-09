@@ -22,10 +22,11 @@ import Main from "../components/Main";
 import Hero from "../components/location/Hero";
 
 export const config: TemplateConfig = {
+  name: "location",
   stream: {
-    $id: "location",
+    $id: "location-stream",
     filter: {
-      entityIds: ["location"],
+      entityTypes: ["location"],
     },
     fields: [
       "id",
